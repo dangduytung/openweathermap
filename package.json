@@ -1,0 +1,23 @@
+{
+  "name": "openweathermap",
+  "version": "0.0.1",
+  "description": "This is a example proxy server to hide public API keys with rate limiting, caching",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Dang Duy Tung",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.9.0",
+    "needle": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
